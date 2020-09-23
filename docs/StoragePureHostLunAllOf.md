@@ -1,0 +1,17 @@
+# StoragePureHostLunAllOf
+
+Definition of the list of properties defined in 'storage.PureHostLun', excluding properties defined in parent classes.
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**host_group_name** | **str** | Name of the host group associated with LUN. | [optional] [readonly] 
+**shared** | **bool** | Kind of volume connection to host. True if it is connected through host group. False in case of direct host connection. | [optional] [readonly] 
+**array** | [**StoragePureArrayRelationship**](StoragePureArrayRelationship.md) |  | [optional] 
+**host** | [**StoragePureHostRelationship**](StoragePureHostRelationship.md) |  | [optional] 
+**host_group** | [**StoragePureHostGroupRelationship**](StoragePureHostGroupRelationship.md) |  | [optional] 
+**registered_device** | [**AssetDeviceRegistrationRelationship**](AssetDeviceRegistrationRelationship.md) |  | [optional] 
+**volume** | [**StoragePureVolumeRelationship**](StoragePureVolumeRelationship.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
